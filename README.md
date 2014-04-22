@@ -11,7 +11,7 @@ This repository is used for preparation and following along with a hands-on Java
 1. Follow the instructions below for "Preparing my workstation"
 
 ### Will there be Wifi?
-I will try to secure wireless internet access, but this cannot be guarunteed. Some aspects of this workshop will expect there to be internet access, but I'll have a backup plan just in case.
+I will try to secure wireless internet access, but this cannot be guaranteed. Some aspects of this workshop will expect there to be internet access, but I'll have a backup plan just in case.
 
 ### I have a (Mac/Linux/Windows) laptop, is that ok?
 There are many platform-specific tools available, but for this workshop the presenter will be using all opensource cross-platform tools, so whatever your favorite OS is, use that.
