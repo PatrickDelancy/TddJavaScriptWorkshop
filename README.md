@@ -53,7 +53,38 @@ npm install
 This runs through all dependencies listed in `package.json` and downloads them
 to a `node_modules` folder in your project directory.
 
-### Verify that everything is setup correctly
+### Verify that gulp can compile the source properly
 ```
 gulp
 ```
+After this command, you should see output without any error messages, and 2 passing tests:
+```
+[gulp] Starting 'validate'...
+[gulp] Finished 'validate' after 193 ms
+[gulp] Starting 'runtests'...
+[gulp] Finished 'runtests' after 8.83 ms
+[gulp] Starting 'browserify'...
+[gulp] Finished 'browserify' after 1.96 ms
+[gulp] Starting 'compass'...
+[gulp] Finished 'compass' after 2.07 ms
+[gulp] Starting 'html'...
+[gulp] Finished 'html' after 647 µs
+[gulp] Starting 'build'...
+[gulp] Finished 'build' after 10 µs
+[gulp] Starting 'default'...
+[gulp] Finished 'default' after 8.55 µs
+..
+
+Finished in 0.01 seconds
+2 tests, 2 assertions, 0 failures
+
+directory build/css/
+
+   create build/css/screen.css
+```
+
+### Verify that you can serve and load the site
+```
+gulp serve
+```
+This should start a lightweight web server. Open your browser to "http://localhost:8080/" to verify that page loads correctly.
