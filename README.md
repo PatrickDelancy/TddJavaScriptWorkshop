@@ -25,6 +25,9 @@ As we are building the project together, we will need some tools to learn and pr
 git clone git@github.com:PatrickDelancy/TddJsWorkshop.git
 ```
 
+### Install Ruby
+If you do not already have Ruby installed, you can download and install from [here](https://www.ruby-lang.org/en/installation/).
+
 ### Install Node.JS
 If you've never used Node or npm before, you'll need to install Node.
 If you use homebrew, do:
