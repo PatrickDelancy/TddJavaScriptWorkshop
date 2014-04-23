@@ -10,8 +10,4 @@ describe('default tests', function(){
 		var test = new testobject();
 		expect(test.testvar).toBe(true);
 	});
-
-	it('has a failing test', function() {
-		expect(true).toBe(false);
-	});
 });
