@@ -22,7 +22,7 @@ As we are building the project together, we will need some tools to learn and pr
 
 ### Clone this repository
 ```
-git clone git@github.com:PatrickDelancy/TddJsWorkshop.git
+git clone https://github.com/PatrickDelancy/TddJavaScriptWorkshop.git
 ```
 
 ### Install Node.JS
